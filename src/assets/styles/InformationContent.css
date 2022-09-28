@@ -1,0 +1,28 @@
+
+.mainInformation h2 {
+    font-size: 30px;
+    font-family: montserrat, monospace;
+    color: #1B1C1E;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.imagesAndText {
+    background-color: #1B1C1E;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 20px;
+
+   
+  justify-items: center; /* adjusted */
+    clear: both;
+}
+.line {
+    border-top: 5px solid #1B1C1E;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    width: 100rem;
+}

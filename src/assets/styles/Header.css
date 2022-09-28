@@ -1,0 +1,42 @@
+*{
+    font-family: montserrat, monospace;
+    color: #F9F6FF;
+}
+header{
+    width: 100%;
+    min-height: 80px;
+
+    height: 80px;
+    min-width: 1250px;
+
+    background-color: #1d428a; /*#1d428a*/
+    clear:both; 
+}
+h1{
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+
+
+}
+
+.socialMedia{ /*div socialMedia*/
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+
+}
+.icons{
+    width: 50px;
+    vertical-align:middle;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 30px;
+    vertical-align:middle;
+    padding-left: 100px;
+    padding-bottom: 17px;
+
+    border-radius: 200% 20% / 10% 40%;
+}
